@@ -55,7 +55,9 @@ export const LayoutContactSection = () => {
     const { firstName, lastName, email, subject, message } = values;
     console.log(values);
 
-    const mailToLink = `mailto:${contact.mailtoAddress}?subject=${subject}&body=Hello, I am ${firstName} ${lastName}. My email is ${email}. %0D%0A${message}`;
+    const mailToLink = `mailto:${contact.mailtoAddress}?subject=${encodeURIComponent(subject)}&body=Hello, I am ${firstName} ${lastName}. My email is ${email}. ${encodeURIComponent(
+      "\n\n" + message
+    )}`;
 
     window.location.assign(mailToLink);
   }
@@ -88,14 +90,16 @@ export const LayoutContactSection = () => {
               <div>{contact.info.address.value}</div>
             </div>
 
-            <div>
-              <div className="flex gap-2 mb-1">
-                <Phone />
-                <div className="font-bold">{contact.info.phone.label}</div>
-              </div>
+            {contact.info.phone.value && (
+              <div>
+                <div className="flex gap-2 mb-1">
+                  <Phone />
+                  <div className="font-bold">{contact.info.phone.label}</div>
+                </div>
 
-              <div>{contact.info.phone.value}</div>
-            </div>
+                <div>{contact.info.phone.value}</div>
+              </div>
+            )}
 
             <div>
               <div className="flex gap-2 mb-1">
@@ -137,7 +141,7 @@ export const LayoutContactSection = () => {
                       <FormItem className="w-full">
                         <FormLabel>First Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Leopoldo" {...field} />
+                          <Input placeholder="Chirag" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -150,7 +154,7 @@ export const LayoutContactSection = () => {
                       <FormItem className="w-full">
                         <FormLabel>Last Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Miranda" {...field} />
+                          <Input placeholder="Dodiya" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
