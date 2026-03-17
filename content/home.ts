@@ -165,22 +165,22 @@ export const defaultHomeContent: HomeContent = {
   // ── Hero ─────────────────────────────────────────────────────────────────
   hero: {
     badgeInner: "Launch",
-    badgeOuter: "Panda SaaS starter is ready",
-    titleBefore: "Build your next",
-    titleHighlight: "SaaS",
-    titleAfter: "app in days, not weeks",
+    badgeOuter: "FlowPilot SaaS starter is ready",
+    titleBefore: "Supercharge your SaaS with ",
+    titleHighlight: "FlowPilot",
+    titleAfter: "",
     subtitle:
-      "Panda gives you authentication, billing-ready patterns, team flows, and polished UI foundations so you can ship faster with confidence.",
-    primaryCta: { label: "Start Building", href: "#pricing" },
-    secondaryCta: { label: "Explore features", href: "#features" },
+      "FlowPilot delivers authentication, team, and dashboard infrastructure so you focus on product, not plumbing. Your SaaS foundation in days, not weeks.",
+    primaryCta: { label: "Get Started", href: "#pricing" },
+    secondaryCta: { label: "See Features", href: "#features" },
     heroImageLight: "/hero-image-light.jpeg",
     heroImageDark: "/hero-image-dark.jpeg",
-    heroImageAlt: "Panda dashboard preview",
+    heroImageAlt: "FlowPilot dashboard preview",
   },
 
   // ── Sponsors ─────────────────────────────────────────────────────────────
   sponsors: {
-    heading: "Built with trusted tools",
+    heading: "Runs on trusted tech",
     items: [
       { icon: "Crown", name: "Vercel" },
       { icon: "Vegan", name: "Stripe" },
@@ -194,30 +194,30 @@ export const defaultHomeContent: HomeContent = {
 
   // ── Benefits ─────────────────────────────────────────────────────────────
   benefits: {
-    eyebrow: "Why Panda",
-    heading: "A practical SaaS app builder starter",
+    eyebrow: "Why FlowPilot",
+    heading: "A launchpad for real SaaS apps",
     description:
-      "Built for teams that want production-ready foundations with room to customize, not a rigid template you outgrow in a week.",
+      "No more starting from a blog template. FlowPilot is for teams who need production authentication, a robust dashboard, and easy onward customization.",
     items: [
       {
         icon: "Blocks",
-        title: "Ship With Confidence",
-        description: "Start from proven architecture and avoid redoing auth, layout, and deployment setup.",
+        title: "Production Auth",
+        description: "Battle-tested signup, sign-in, email verification, password reset, and secure session flows.",
       },
       {
         icon: "LineChart",
-        title: "Faster Time To Revenue",
-        description: "Focus on product validation while the starter handles the repetitive engineering basics.",
+        title: "Instant Team System",
+        description: "Multi-tenant team architecture—invite, roles, and permissions are ready-to-go.",
       },
       {
         icon: "Wallet",
-        title: "Lower Build Cost",
-        description: "Reusable components and patterns reduce rework and keep your team moving efficiently.",
+        title: "Save Months of Rework",
+        description: "Built-in patterns for dashboard layout, settings, CRUD features, and user flows.",
       },
       {
         icon: "Sparkle",
-        title: "Cleaner UX By Default",
-        description: "Responsive sections, dark mode, and polished UI primitives create a premium first impression.",
+        title: "Looks Polished Day 1",
+        description: "Responsive, themeable, and accessible—all with shadcn for out-of-the-box design quality.",
       },
     ],
   },
@@ -225,61 +225,60 @@ export const defaultHomeContent: HomeContent = {
   // ── Features ─────────────────────────────────────────────────────────────
   features: {
     eyebrow: "Features",
-    heading: "What you get out of the box",
+    heading: "Everything SaaS builders expect, included",
     subtitle:
-      "Panda combines developer speed and production-grade UX so you can spend your time shipping features instead of rebuilding starter infrastructure.",
+      "FlowPilot is a modern SaaS starter with all the foundations organizations need—ready to extend for your use case.",
     items: [
-      { icon: "TabletSmartphone", title: "Responsive By Default", description: "Every section is optimized for mobile and desktop without extra layout work." },
-      { icon: "BadgeCheck", title: "Battle-Tested Patterns", description: "Uses dependable UI and architecture conventions teams can maintain long-term." },
-      { icon: "Goal", title: "Product-Focused Structure", description: "Clear section hierarchy designed to communicate value and drive activation." },
-      { icon: "PictureInPicture", title: "Polished Visual Foundation", description: "Modern cards, spacing, and motion cues that are easy to extend for your brand." },
-      { icon: "MousePointerClick", title: "Conversion-Ready CTA Flow", description: "Strategic calls-to-action and section order help users move to signup quickly." },
-      { icon: "Newspaper", title: "Documentation-Friendly", description: "Readable code and section boundaries make onboarding new contributors easier." },
+      { icon: "TabletSmartphone", title: "Responsive Layout", description: "Design adapts beautifully across devices—no extra styling needed." },
+      { icon: "BadgeCheck", title: "Verified User Flows", description: "Email verification and reset flows that handle the edge-cases cleanly." },
+      { icon: "Goal", title: "Team & Role Management", description: "Owners, admins, members, invitations, and permissions: all standard." },
+      { icon: "PictureInPicture", title: "Wired Dashboard", description: "Clean dashboard shell, side-nav, and account/feature pages, all production style." },
+      { icon: "MousePointerClick", title: "Easy Customization", description: "Swap out landing copy, add new dashboard features, update your theme—no scaffolding overhaul required." },
+      { icon: "Newspaper", title: "Email with SendGrid", description: "Production-grade transactional email for invites, verification, and support." },
     ],
   },
 
   // ── Services ─────────────────────────────────────────────────────────────
   services: {
     eyebrow: "Services",
-    heading: "Core starter capabilities",
+    heading: "Built-in for rapid SaaS launches",
     subtitle:
-      "A pragmatic baseline for SaaS products that need to move quickly without sacrificing quality.",
+      "Perfect for founders, indies, or teams: skip the boring parts and focus on what makes your app unique.",
     items: [
-      { title: "Authentication Foundation", description: "Ready-to-extend auth scaffolding for email, OAuth, and organization-based access.", pro: false },
-      { title: "Billing-Ready Structure", description: "Plan models and upgrade flow patterns prepared for Stripe or your payment provider.", pro: false },
-      { title: "Developer Experience", description: "TypeScript, linting, and component primitives configured for team velocity.", pro: false },
-      { title: "Production Hardening", description: "Security-minded defaults, reusable UI states, and maintainable section architecture.", pro: true },
+      { title: "Auth System", description: "Production-ready email/password, verification, reset, secure cookies.", pro: false },
+      { title: "Multi-Tenant Teams", description: "Each user gets a personal team on sign-up. Roles/invites built-in.", pro: false },
+      { title: "Developer Tooling", description: "Next.js 16, React 19, TypeScript 5, ESLint 9, Drizzle ORM, and OpenAI integration.", pro: false },
+      { title: "Production Hardened", description: "Audit-friendly DB, strong types, secure deployments. No take-home refactoring.", pro: true },
     ],
   },
 
   // ── Testimonials ─────────────────────────────────────────────────────────
   testimonials: {
     eyebrow: "Testimonials",
-    heading: "Teams shipping with Panda",
+    heading: "Teams building with FlowPilot",
     reviews: [
-      { image: "/demo-img.jpg", name: "Aarav Shah", role: "Founder, FinchFlow", comment: "Panda saved us weeks of setup. We launched our first paying plan in less than a sprint.", rating: 5.0 },
-      { image: "/demo-img.jpg", name: "Maya Patel", role: "Product Lead, OrbitDesk", comment: "The section structure and component quality made it easy to ship a polished onboarding flow quickly.", rating: 4.8 },
-      { image: "/demo-img.jpg", name: "Nikhil Rao", role: "CTO, TeamForge", comment: "We replaced our old starter with Panda and reduced front-end rework dramatically.", rating: 4.9 },
-      { image: "/demo-img.jpg", name: "Emma Brooks", role: "Head of Growth, Nimbus", comment: "The default layout is conversion-friendly and easy to adapt to our brand.", rating: 5.0 },
-      { image: "/demo-img.jpg", name: "Daniel Kim", role: "Engineering Manager, PulseOps", comment: "Great developer ergonomics. New engineers onboarded fast and started shipping immediately.", rating: 5.0 },
-      { image: "/demo-img.jpg", name: "Sofia Green", role: "Founder, LaunchPad AI", comment: "Exactly what we needed for an MVP: clean code, strong UI, and a sensible section flow.", rating: 4.9 },
+      { image: "/demo-img.jpg", name: "Aarav Shah", role: "Founder, FinchFlow", comment: "FlowPilot turned 'setup nightmare' into 'ready-to-demo' in a single afternoon. Highly recommend!", rating: 5.0 },
+      { image: "/demo-img.jpg", name: "Maya Patel", role: "Product Lead, OrbitDesk", comment: "Our auth and onboarding were ready for customer traffic instantly.", rating: 4.8 },
+      { image: "/demo-img.jpg", name: "Nikhil Rao", role: "CTO, TeamForge", comment: "Nothing else ships this much working SaaS structure this fast.", rating: 4.9 },
+      { image: "/demo-img.jpg", name: "Emma Brooks", role: "Head of Growth, Nimbus", comment: "Landing and dashboard looked on-brand right away—way easier than our last starter.", rating: 5.0 },
+      { image: "/demo-img.jpg", name: "Daniel Kim", role: "Engineering Manager, PulseOps", comment: "Fastest team onboarding in years. New engineers start with real business logic.", rating: 5.0 },
+      { image: "/demo-img.jpg", name: "Sofia Green", role: "Founder, LaunchPad AI", comment: "Open source, battle-tested, and actually production-ready. The real deal.", rating: 4.9 },
     ],
   },
 
   // ── Team ─────────────────────────────────────────────────────────────────
   team: {
     eyebrow: "Team",
-    heading: "Meet the Panda team",
+    heading: "Meet the FlowPilot team",
     members: [
       {
         imageUrl: "/team1.jpg",
-        firstName: "Leo",
-        lastName: "Miranda",
-        positions: ["Lead Engineer", "Starter Architecture"],
+        firstName: "Chirag",
+        lastName: "Dodiya",
+        positions: ["Founder", "Lead Engineer"],
         socialNetworks: [
-          { name: "LinkedIn", url: "https://www.linkedin.com/in/leopoldo-miranda/" },
-          { name: "Github", url: "https://github.com/leoMirandaa" },
-          { name: "X", url: "https://x.com/leo_mirand4" },
+          { name: "LinkedIn", url: "https://linkedin.com/in/chiragdodiya" },
+          { name: "Github", url: "https://github.com/chiragdodiya" }
         ],
       },
       {
@@ -288,70 +287,10 @@ export const defaultHomeContent: HomeContent = {
         lastName: "Moore",
         positions: ["Product Designer"],
         socialNetworks: [
-          { name: "LinkedIn", url: "https://www.linkedin.com/in/leopoldo-miranda/" },
-          { name: "X", url: "https://x.com/leo_mirand4" },
+          { name: "LinkedIn", url: "https://www.linkedin.com/in/leopoldo-miranda/" }
         ],
-      },
-      {
-        imageUrl: "/team3.jpg",
-        firstName: "David",
-        lastName: "Diaz",
-        positions: ["Platform Engineer", "AI Integrations"],
-        socialNetworks: [
-          { name: "LinkedIn", url: "https://www.linkedin.com/in/leopoldo-miranda/" },
-          { name: "Github", url: "https://github.com/leoMirandaa" },
-        ],
-      },
-      {
-        imageUrl: "/team1.jpg",
-        firstName: "Sarah",
-        lastName: "Robinson",
-        positions: ["Cloud Engineer", "Kubernetes"],
-        socialNetworks: [
-          { name: "LinkedIn", url: "https://www.linkedin.com/in/leopoldo-miranda/" },
-          { name: "Github", url: "https://github.com/leoMirandaa" },
-          { name: "X", url: "https://x.com/leo_mirand4" },
-        ],
-      },
-      {
-        imageUrl: "/team2.jpg",
-        firstName: "Michael",
-        lastName: "Holland",
-        positions: ["DevOps Engineer", "CI/CD"],
-        socialNetworks: [
-          { name: "LinkedIn", url: "https://www.linkedin.com/in/leopoldo-miranda/" },
-        ],
-      },
-      {
-        imageUrl: "/team3.jpg",
-        firstName: "Zoe",
-        lastName: "Garcia",
-        positions: ["Frontend Engineer", "Design Systems"],
-        socialNetworks: [
-          { name: "LinkedIn", url: "https://www.linkedin.com/in/leopoldo-miranda/" },
-          { name: "Github", url: "https://github.com/leoMirandaa" },
-        ],
-      },
-      {
-        imageUrl: "/team1.jpg",
-        firstName: "Evan",
-        lastName: "James",
-        positions: ["Backend Engineer"],
-        socialNetworks: [
-          { name: "LinkedIn", url: "https://www.linkedin.com/in/leopoldo-miranda/" },
-          { name: "Github", url: "https://github.com/leoMirandaa" },
-          { name: "X", url: "https://x.com/leo_mirand4" },
-        ],
-      },
-      {
-        imageUrl: "/team2.jpg",
-        firstName: "Pam",
-        lastName: "Taylor",
-        positions: ["Fullstack Engineer", "Product UX"],
-        socialNetworks: [
-          { name: "X", url: "https://x.com/leo_mirand4" },
-        ],
-      },
+      }
+      // Expand with more team if desired.
     ],
   },
 
@@ -359,32 +298,47 @@ export const defaultHomeContent: HomeContent = {
   pricing: {
     eyebrow: "Pricing",
     heading: "Pricing for every stage",
-    subtitle: "Start lean, then scale to enterprise-grade workflows as your product grows.",
+    subtitle: "Start free, then scale when you're ready. One template, all features, no lock-in.",
     priceSuffix: "/month",
     plans: [
       {
         title: "Starter",
         popular: false,
         price: 0,
-        description: "Ideal for prototypes and small internal tools.",
-        buttonText: "Start for free",
-        benefits: ["Up to 3 teammates", "Basic auth patterns", "Core landing sections", "Community support", "Deploy-ready setup"],
+        description: "Great for proof-of-concept and launching your first SaaS.",
+        buttonText: "Launch Free",
+        benefits: [
+          "Up to 3 teammates",
+          "Built-in auth & team system",
+          "FlowPilot UI kit",
+          "Deploy-ready out of the box"
+        ],
       },
       {
         title: "Growth",
         popular: true,
         price: 49,
-        description: "Best for product teams shipping customer-facing SaaS.",
-        buttonText: "Start trial",
-        benefits: ["Unlimited teammates", "Advanced section set", "Billing-ready models", "Priority support", "Team workflows"],
+        description: "For growing teams and customer-ready SaaS.",
+        buttonText: "Start 14-day Trial",
+        benefits: [
+          "Unlimited teammates",
+          "Priority support",
+          "Stripe billing ready",
+          "Advanced onboarding flows"
+        ],
       },
       {
         title: "Enterprise",
         popular: false,
         price: 199,
-        description: "For teams requiring compliance, support SLAs, and custom rollout.",
-        buttonText: "Contact sales",
-        benefits: ["Security review support", "SSO/SAML integration path", "Dedicated onboarding", "Phone and email support", "Architecture advisory"],
+        description: "Need SSO, audits, or Vercel private deploys? Let's talk.",
+        buttonText: "Contact founder",
+        benefits: [
+          "SSO/SAML integration path",
+          "Architecture advisory",
+          "Dedicated onboarding",
+          "Personal support line"
+        ],
       },
     ],
   },
@@ -392,44 +346,42 @@ export const defaultHomeContent: HomeContent = {
   // ── Contact ──────────────────────────────────────────────────────────────
   contact: {
     eyebrow: "Contact",
-    heading: "Talk to the Panda team",
+    heading: "Talk to FlowPilot team",
     description:
-      "Need help customizing the starter, planning architecture, or accelerating launch? Share your goals and timeline.",
-    mailtoAddress: "hello@panda.dev",
+      "Questions about your SaaS, need consulting, or want to discuss customer launches? Reach out below.",
+    mailtoAddress: "chirag@bidx.ai",
     info: {
-      address: { label: "Find us", value: "Remote-first • San Francisco, CA" },
-      phone: { label: "Call us", value: "+1 (415) 555-0199" },
-      email: { label: "Email us", value: "hello@panda.dev" },
-      hours: { label: "Visit us", value: ["Monday - Friday", "9AM - 6PM PT"] },
+      address: { label: "Location", value: "Remote-first • Mumbai, India" },
+      phone: { label: "Phone", value: "" },
+      email: { label: "Email", value: "chirag@bidx.ai" },
+      hours: { label: "Support hours", value: ["Monday - Friday", "9AM - 6PM IST"] },
     },
-    formSubjects: ["Starter Demo", "Architecture Review", "Design System", "Billing Integration", "Enterprise Plan"],
+    formSubjects: ["Template Inquiry", "Consulting", "Demo Request", "Custom Build", "Enterprise Plan"],
     formSubmitLabel: "Send inquiry",
   },
 
   // ── FAQ ──────────────────────────────────────────────────────────────────
   faq: {
     eyebrow: "FAQ",
-    heading: "Common Questions",
+    heading: "Frequently Asked Questions",
     items: [
-      { question: "Is Panda free to start with?", answer: "Yes. You can start with the core template and customize it for your product." },
-      { question: "Can I use this for a production SaaS app?", answer: "Yes. The starter is designed for production-minded teams with scalable structure and reusable UI patterns." },
-      { question: "Does it support dark mode and responsive design?", answer: "Yes. The template includes theme support and responsive layouts across major sections." },
-      { question: "Can I plug in my own auth and billing provider?", answer: "Yes. The structure is provider-agnostic and easy to adapt for your stack." },
-      { question: "How quickly can I launch with Panda?", answer: "Most teams can ship an MVP in days by reusing existing sections and starter patterns." },
+      { question: "Is FlowPilot free to try?", answer: "Yes! You can fork, customize, and even launch your SaaS using the free plan." },
+      { question: "Is this template ready for real production SaaS?", answer: "Yes. FlowPilot is designed for launch and scale, with security and patterns for growth." },
+      { question: "Is backend, auth and dashboard truly working?", answer: "Yes, authentication, team, dashboard, feature CRUD, and all the data flows are real and cloud deployable." },
+      { question: "Are emails real and can I use my own sender?", answer: "Yes, plug your own SendGrid key for production emails. Owner email is chirag@bidx.ai by default." },
+      { question: "Can I hire you to help with customization?", answer: "Yes, reach out via contact and Chirag Dodiya will assist with consulting or feature work." },
     ],
   },
 
   // ── Footer ───────────────────────────────────────────────────────────────
   footer: {
-    brandName: "Panda",
+    brandName: "FlowPilot",
     columns: [
       {
         heading: "Contact",
         links: [
-          { label: "hello@panda.dev", href: "mailto:hello@panda.dev" },
-          { label: "Github", href: "#" },
-          { label: "Twitter", href: "https://x.com" },
-          { label: "Discord", href: "https://discord.com" },
+          { label: "chirag@bidx.ai", href: "mailto:chirag@bidx.ai" },
+          { label: "Github", href: "https://github.com/chiragdodiya" }
         ],
       },
       {
@@ -451,19 +403,17 @@ export const defaultHomeContent: HomeContent = {
       {
         heading: "Socials",
         links: [
-          { label: "GitHub", href: "https://github.com" },
-          { label: "Discord", href: "https://discord.com" },
-          { label: "X", href: "https://x.com" },
+          { label: "GitHub", href: "https://github.com/chiragdodiya" }
         ],
       },
     ],
-    copyright: "\u00a9 2026 Panda SaaS App Builder Starter.",
+    copyright: "© 2026 FlowPilot SaaS App Starter.",
     attribution: { label: "Built on Next.js", href: "https://nextjs.org" },
   },
 
   // ── Navbar ───────────────────────────────────────────────────────────────
   navbar: {
-    brandName: "Panda",
+    brandName: "FlowPilot",
     routes: [
       { href: "/#testimonials", label: "Testimonials" },
       { href: "/#team", label: "Team" },
@@ -471,16 +421,16 @@ export const defaultHomeContent: HomeContent = {
       { href: "/#faq", label: "FAQ" },
     ],
     featureDropdownLabel: "Features",
-    featureImage: { src: "/demo-img.jpg", alt: "Panda preview" },
+    featureImage: { src: "/demo-img.jpg", alt: "FlowPilot preview" },
     features: [
-      { title: "Auth, Billing, Teams", description: "Production-ready flows for sign-in, subscriptions, and organizations." },
-      { title: "UI + Design System", description: "Shadcn-based components with consistent theming and dark mode support." },
-      { title: "Deploy Fast", description: "Sane defaults for Next.js, TypeScript, and Vercel-first deployment." },
+      { title: "Auth, Teams, Email", description: "Email/password signup, team/invite flows, real email sending." },
+      { title: "UI + Layout", description: "Polished dashboard, easily themeable." },
+      { title: "Deploy Instantly", description: "Prod-ready, Vercel-compatible, one-click deploy." },
     ],
     signInLabel: "Sign in",
     signUpLabel: "Sign up",
     dashboardLabel: "Dashboard",
-    githubLink: { href: "https://nextjs.org/docs", ariaLabel: "View on GitHub" },
+    githubLink: { href: "https://github.com/chiragdodiya/flowpilot", ariaLabel: "View FlowPilot on GitHub" },
   },
 };
 
